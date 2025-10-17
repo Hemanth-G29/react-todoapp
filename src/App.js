@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="container rounded mt-5">
       <div className="card text-white" >
-        <div className="card-header" style={{backgroundColor: "#E4D00A"}}>
+        <div className="card-header" style={{backgroundColor: "#b89800", fontFamily:"Chiller, cursive"}}>
           <h1 className="card-title text-center">Todo List</h1>
         </div>
         <div className="card-body">
