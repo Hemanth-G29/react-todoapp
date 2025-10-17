@@ -8,7 +8,7 @@ function TodoInput({ onAdd }) {
   return (
     <form onSubmit={handleSubmit} className="mb-3">
       <div className="input-group">
-        <input type="text" name="todoText" className="form-control" placeholder="New task..." />
+        <input type="text" name="todoText" className="form-control" placeholder="New task..." autofocus />
         <button type="submit" className="btn btn-primary">Add Todo</button>
       </div>
     </form>
